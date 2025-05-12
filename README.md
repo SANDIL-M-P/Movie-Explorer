@@ -24,7 +24,23 @@ The **Movie Explorer App** is a movie browsing application built with **React** 
 
 Follow the steps below to set up and run the app locally:
 
-### 1. Clone the repository
+1. Clone the repository
 
+```
 git clone https://github.com/yourusername/movie-explorer-app.git
 cd movie-explorer-app
+```
+
+2. Install dependencies
+Make sure you have Node.js installed on your machine. Then, install the necessary dependencies:
+```
+nom install
+```
+
+3. Configure TMDb API
+Get your TMDb API key from here.
+
+Replace the API key in the src/api/tmdb.js file with your own API key.
+```
+const API_KEY = 'YOUR_API_KEY';
+```
